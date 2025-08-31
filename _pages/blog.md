@@ -1,7 +1,8 @@
 ---
-title: "Blog Posts"
+title: "Blog"
+layout: home
 permalink: /blog/
-layout: posts
 author_profile: true
-classes: wide
+paginate: 5
+paginate_path: /blog/page:num/
 ---
