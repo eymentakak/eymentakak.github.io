@@ -94,20 +94,6 @@ defaults:
       author_profile: false
       share: true
 
-# Navigation
-main:
-  - title: "Home"
-    url: /
-  - title: "Blog"
-    url: /posts/
-  - title: "Categories" 
-    url: /categories/
-  - title: "Portfolio"
-    url: /portfolio/
-  - title: "CV"
-    url: /cv/
-  - title: "About"
-    url: /about/
 
 # Analytics (optional)
 # google_analytics: "UA-XXXXXXXX-X"
