@@ -68,8 +68,6 @@ feature_row3:
 
 {% include feature_row %}
 
----
-
 ## Recent Achievements
 
 - **Microsoft SC-900 Certified** - Security, Compliance, and Identity Fundamentals
