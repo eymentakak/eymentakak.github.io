@@ -1,0 +1,118 @@
+# Site Settings
+title: "Yusuf Eymen Takak"
+name: "Yusuf Eymen Takak"
+description: "Cybersecurity Professional | Security Operations | Threat Hunting | SCADA/ICS Security"
+url: "https://EymenTakak.github.io"
+baseurl: ""
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark" # Professional look
+
+# Author Info
+author:
+  name: "Yusuf Eymen Takak"
+  bio: "Cybersecurity professional with expertise in Security Operations, SCADA/ICS security, and automation. Currently expanding skills in Microsoft security technologies and threat hunting."
+  avatar: "/assets/images/profile.jpg"
+  location: "Istanbul, Turkey"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/eymentakak"
+    - label: "LinkedIn" 
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/eymentakak"
+    - label: "TryHackMe"
+      icon: "fas fa-fw fa-shield-alt"
+      url: "https://tryhackme.com/p/EymenTakak"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:takak.eymen@gmail.com"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/eymentakak"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/eymentakak"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+paginate: 8
+paginate_path: /page:num/
+timezone: Europe/Istanbul
+
+# Plugin Settings
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  # Posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      show_date: true
+      sidebar:
+        nav: "main"
+  # Pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: "main"
+  # Portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+# Navigation
+main:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /posts/
+  - title: "Categories" 
+    url: /categories/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "CV"
+    url: /cv/
+  - title: "About"
+    url: /about/
+
+# Analytics (optional)
+# google_analytics: "UA-XXXXXXXX-X"
+
+# SEO
+locale: "en-US"
+og_image: "/assets/images/site-logo.png"
