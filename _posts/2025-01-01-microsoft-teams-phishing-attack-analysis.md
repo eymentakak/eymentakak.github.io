@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Teams Phishing: IT Helpdesk Impersonation Attacks and Detection with KQL"
-date: 2025-01-01
+date: 2025-08-31
 categories:
   - Security Operations
   - Threat Hunting
