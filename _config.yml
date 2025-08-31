@@ -55,6 +55,9 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
 
+
+include:
+  - _pages
 # Collections
 collections:
   portfolio:
