@@ -14,8 +14,8 @@ header:
 # Yusuf Eymen Takak
 **Cybersecurity Professional | Security Operations Specialist**
 
-📧 takak.eymen@gmail.com | 📱 (+90) 538 373 7447 | 📍 Istanbul, Turkey  
-🔗 [LinkedIn](https://linkedin.com/in/eymentakak) | 💻 [GitHub](https://github.com/EymenTakak) | 🛡️ [TryHackMe](https://tryhackme.com/p/EymenTakak)
+📧 takak.eymen@gmail.com | 📍 Istanbul, Turkey  
+🔗 [LinkedIn](https://linkedin.com/in/eymentakak) | 💻 [GitHub](https://github.com/EymenTakak) | 🛡️ [TryHackMe](https://tryhackme.com/p/elooaat))
 
 ---
 
