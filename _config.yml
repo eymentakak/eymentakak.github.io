@@ -97,8 +97,11 @@ defaults:
       share: true
 
 
-# Analytics (optional)
-google_analytics: "G-4XRV5CZDTF"
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-4XRV5CZDTF"
+    anonymize_ip: false
 
 # SEO
 locale: "en-US"
