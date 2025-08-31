@@ -98,7 +98,7 @@ defaults:
 
 
 # Analytics (optional)
-# google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "G-4XRV5CZDTF"
 
 # SEO
 locale: "en-US"
