@@ -6,7 +6,7 @@ url: "https://EymenTakak.github.io"
 baseurl: ""
 
 # Theme
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 minimal_mistakes_skin: "dark" # Professional look
 
 # Author Info
@@ -53,6 +53,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # Collections
 collections:
