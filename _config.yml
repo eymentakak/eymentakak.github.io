@@ -85,7 +85,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      sidebar: "sidebar"
+      sidebar:
         nav: "main"
   # Portfolio
   - scope:
