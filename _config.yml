@@ -13,7 +13,6 @@ minimal_mistakes_skin: "dark" # Professional look
 author:
   name: "Yusuf Eymen Takak"
   bio: "Cybersecurity professional with expertise in Security Operations, SCADA/ICS security, and automation. Currently expanding skills in Microsoft security technologies and threat hunting."
-  avatar: "/assets/images/profile.jpg"
   location: "Istanbul, Turkey"
   links:
     - label: "GitHub"
