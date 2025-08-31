@@ -1,0 +1,29 @@
+# Main Navigation
+main:
+  - title: "Home"
+    url: /
+  - title: "Blog"
+    url: /posts/
+  - title: "Categories"
+    url: /categories/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "CV"
+    url: /cv/
+  - title: "About"
+    url: /about/
+
+# Sidebar Navigation
+sidebar:
+  - title: "Quick Links"
+    children:
+      - title: "Latest Posts"
+        url: /posts/
+      - title: "Security Operations"
+        url: /categories/security-operations/
+      - title: "ICS Security"
+        url: /categories/ics-security/
+      - title: "Automation"
+        url: /categories/automation/
+      - title: "Certifications"
+        url: /categories/certifications/
